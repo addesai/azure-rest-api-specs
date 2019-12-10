@@ -151,6 +151,9 @@
               "$ref": "#/definitions/UsageDetailsListResult"
             }
           },
+          "429": {
+            "description": "Too Many Requests. Request rate exceeds the limit of 30 requests / minute.",
+          },
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
